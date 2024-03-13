@@ -1,0 +1,17 @@
+DELAY 100
+GUI x
+DELAY 500
+STRING a
+DELAY 500
+LEFT_ARROW
+DELAY 500
+ENTER
+DELAY 500
+STRING start-process powershell -verb runas
+ENTER
+DELAY 100
+STRING Get-WindowsCapability -Online | ? Name -like 'OpenSSH*'
+ENTER
+DELAY 100
+STRING Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+ENTER
