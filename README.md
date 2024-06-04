@@ -1,4 +1,4 @@
-# ♠ SSH-deflorator - OpenSSH Server injector for Windows with RPi pico
+# ♠ SSH-Injector - OpenSSH Server injector for Windows with RPi pico
 ## By amuchina (Giovanni Desio)
 
 ## Description
@@ -29,7 +29,7 @@ do the operations smarter, so be gentle.
 
 ## Why is the functioning so stupid?
 
-As you can see, the payload and prerequisities of this shit are quite foolish though. Why this? well, the functioning exploit some stupid actions that you can easily do as
+As you can see, the payload and prerequisities of this are quite foolish though. Why this? well, the functioning exploit some actions that you can easily do as
 a normal user, but the point is that you should consider that most people nowadays are so silly to not protect their PCs from such stupid attacks like mine, that simply
 use the ignorancy of people about the danger of plugging weird things in their machines just to see what's inside, or maybe the distraction of a moment.
 Finally, most Windows user leave their Windows security options as default, allowing exploitable vulnerabilities such as the UAC password bypass.
